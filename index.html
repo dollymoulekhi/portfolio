@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
+
+<head>
+  <meta charset="utf-8">
+  <title>DOLLY | PORTFOLIO</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- private css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/logo.png">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Noto+Sans+KR:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+  <!-- javascript and jQuery reponsible for any behaviour of our website -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+  <!-- fontawsome script tag -->
+  <script src="https://kit.fontawesome.com/1a58d1200c.js" crossorigin="anonymous"></script>
+
+
+
+
+  <style>
+
+    #name {
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 20px; /* Adjust font size as needed */
+          margin-bottom: 10px; /* Add some bottom margin */
+      }
+     /* Add style for black underline */
+    #social-links:before {
+      content: "";
+      display: block;
+      width: 70px; /* Adjust width of the underline */
+      height: 1px;
+      background-color: #928484; /* Adjust color of the underline */
+      margin: 0 auto 10px; /* Center the underline and add bottom margin */
+    }
+
+    #projects {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    .project__heading {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .project__info {
+        font-size: 16px;
+        letter-spacing: -0.5px; /* Adjust the letter spacing as needed */
+    }
+
+
+
+
+  .timeline {
+    position: relative;
+    margin: 50px auto;
+    width: 80;
+    height: 2px;
+    background-color: #ccc;
+  }
+
+  .dot {
+    position: absolute;
+    bottom: -6px;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+
+  .year {
+    position: absolute;
+    bottom: -30px;
+    font-size: 12px;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+
+  .position {
+    position: absolute;
+    bottom: -40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transform: translateX(-50%);
+    white-space: nowrap; 
+  }
+
+  .company {
+    position: absolute;
+    bottom: -30px;
+    font-size: 12px;
+    text-align: center;
+    transform: translateX(-50%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+
+
+
+
+</head>
+
+<body>
+  <main class="example">
+    <section id="title">
+      <!-- Nav Bar -->
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+          <a class="navbar-brand" href="index.html">
+            <div class="logo-container">
+              HOME
+              <!-- <img src="images/logo.png" class="img-fluid logo-img" alt="logo"> -->
+            </div>
+          </a>
+
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item">
+                <a class="nav-link text-big cursor-pointer" id="nav-link-id"
+                  onclick="location.href='mailto:moulekhideepa@gmail.com'">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-big" id="nav-link-id" href="#skills">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-big" id="nav-link-id" href="#projects">PROJECTS</a>
+              </li>
+          
+            </ul>
+          </div>
+        </nav>
+
+
+        <main class="example">
+          <!-- Name Section -->
+          <section id="name">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  DOLLY MOULEKHI
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Social Links Section -->
+          <section id="social-links">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <a href="https://www.linkedin.com/in/dmoulekhi/">
+                    <img src="images/linkedin.png" alt="LinkedIn" class="social-icon">
+                  </a>
+                  <a href="https://github.com/dollymoulekhi">
+                    <img src="images/github.png" alt="GitHub" class="social-icon">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+        <!-- Title -->
+
+        <div class="row">
+          <div class="col-lg-6 text-shadow">
+            <p id="our-headings" class="top-head">Welcome to Dolly Moulekhi's homepage.</p>
+        
+            <p class="about">I'm a Data Scientist and Machine Learning Engineer currently doing my master's in <br>
+              Mechanical Engineering, specializing in Industrial Control Systems.</p>
+
+
+        <div class="button-container">
+          <a href="Dolly_resume.pdf" download class="button-wrapper">
+              <button type="button" class="btn btn-lg btn-dark download-button pad-btn transparent-button">
+                  <i class="far fa-file"></i> Resume
+              </button>
+          </a>
+          <button type="button" class="btn btn-lg btn-primary download-button primary-color-buttons pad-btn transparent-button"
+              onclick="location.href='mailto:moulekhideepa@gmail.com'">
+              <i class="fas fa-envelope"></i> Contact Me
+          </button>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- About Me Section -->
+    <section id="about-me">
+
+      <div class="container">
+        <div class="row">
+          <!-- Add image column -->
+          <div class="col-lg-6">
+            <img src="./images/dolly_formal.png" alt="Dolly Formal" class="img-fluid" style="width: auto; max-width: auto; height: auto;">
+          </div>
+
+          <!-- Add content column -->
+          <div class="col-lg-6">
+            <div class="col-lg-12 text-center">;
+              <h2 style="margin-bottom: 30px;text-decoration: underline 2px;font-family: Arial, Helvetica, sans-serif;">About Me</h2>
+              <p style="font-family: Arial, Helvetica, sans-serif;
+              font-weight: bold;
+              color: #666060;">Innovative Mechanical Engineer with over two years of industrial experience as a Data Scientist in Machine Learning, Image Processing, and Data Analytics. Currently pursuing a Master's degree in Mechanical Engineering with a focus on Industrial Control Systems at Concordia University with an aim to combine mechanical engineering and machine learning knowledge to design and build complex mechanical systems with intelligent data-driven capabilities.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <main class="example">
+    <section id="title">
+        <!-- Nav Bar -->
+        <!-- Your existing navigation code goes here -->
+    </section>
+
+    <!-- Other sections of your website -->
+
+    <!-- Timeline Section -->
+    <section id="timeline">
+        <div class="container">
+            <div class="timeline">
+                <div class="dot" style="left: 0%;"></div>
+                <div class="dot" style="left: 20%;"></div>
+                <div class="dot" style="left: 40%;"></div>
+                <div class="dot" style="left: 60%;"></div>
+                <div class="dot" style="left: 80%;"></div>
+                <div class="dot" style="left: 100%;"></div>
+
+
+
+                <div class="year" style="left: 0%;">July 2020</div> <!-- Update this line -->
+                <div class="year" style="left: 20%;">Feb 2021</div>
+                <div class="year" style="left: 40%;">May 2021</div>
+                <div class="year" style="left: 60%;">Aug 2023</div>
+                <div class="year" style="left: 80%;">Jan 2024</div>
+                <div class="year" style="left: 100%;">May 2024</div>
+
+
+
+                <div class="position" style="left: 10%; bottom: 20px; position: absolute; margin-bottom: -20px;">Data Analytics Tutor</div>
+                <div class="position" style="left: 30%; bottom: 20px; position: absolute; margin-bottom: -20px;">Data Analyst</div>
+                <div class="position" style="left: 50%; bottom: 20px; position: absolute; margin-bottom: -20px;">Data Scientist</div>
+                <div class="position" style="left: 70%; bottom: 20px; position: absolute; margin-bottom: -20px;">Masters, Mechanical Engineering</div>
+                <div class="position" style="left: 90%; bottom: 20px; position: absolute; margin-bottom: -20px;">TA (Electronics)</div>
+
+
+
+
+                <div class="company" style="left: 10%;">White Hat jr</div>
+                <div class="company" style="left: 30%;">BetterPlace</div>
+                <div class="company" style="left: 50%;">BetterPlace</div>
+                <div class="company" style="left: 70%;">Concordia University</div>
+                <div class="company" style="left: 90%;">Concordia University</div>
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="skills">
+      <h1 class="heading__skills">
+        SKILLS
+      </h1>
+      <div class="row">
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-laptop-code fa-4x"></i>
+          <h3>Languages.</h3>
+
+          <li style="list-style-type:none;"><i class="icon fab fa-python"></i> Python</li>
+          <li style="list-style-type:none;"><i class="icon fas fa-database"></i> SQL/NoSQL</li>
+          <li style="list-style-type:none;"><i class="icon fab fa-html5 fa-2px"></i> HTML</li>
+          <li style="list-style-type:none;"><i class="icon fas fa-code"></i> C/C++</li>
+
+
+
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-microchip fa-4x"></i>
+          <h3>Libraries.</h3>
+          <li style="list-style-type:none;"><i class="icon fad fa-solid fa-shield"></i> scikit-learn, TensorFlow </li>
+          <li style="list-style-type:none;"><i class="icon fad fa-chart-network"></i> MLflow, HyperOpt </li>
+          <li style="list-style-type:none;"><i class="icon fad fa-chart-network"></i> HyperOpt </li>
+          <li style="list-style-type:none;"><i class="icon fad fa-chart-network"></i> Web Scraping: BeautifulSoup, Scrapy, Selenium  </li>
+          <li style="list-style-type:none;"><i class="icon fad fa-chart-network"></i> Text Mining: Natural Language Processing (NLP), SpaCy  </li>
+          <li style="list-style-type:none;"><i class="icon fas fa-chart-line"></i> Matplotlib, Seaborn, Plotly</li>
+          <li style="list-style-type:none;"><i class="icon fas fa-table"></i> Pandas, Numpy, GeoPandas </li>
+          <li style="list-style-type:none;"><i class="icon fas fa-database"></i> Big Query</li>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-project-diagram fa-4x"></i>
+          <h3>Softwares/Platforms.</h3>
+          <li style="list-style-type:none;"><i class="icon fab fa-git fa-2px"></i> Git hub, BitBucket </li>
+          <li style="list-style-type:none;"><i class="icon fa-solid fa-shield-2px"></i> GCP: BigQuery, GDS </li>
+          <li style="list-style-type:none;"><i class="icon fa-solid fa-shield fa-2px"></i> AWS Git hub, BitBucket </li>
+          <li style="list-style-type:none;"><i class="icon fa-solid fa-shield fa-2px"></i> ETL Pipeline, Apache Airflow </li>
+          <li style="list-style-type:none;"><i class="icon fad fa-chart-network"></i> Skills: Recommendation systems, Model deployment, Model Evaluation  </li>
+          <li style="list-style-type:none;"><i class="icon far fa-file-excel"></i> Excel</li>
+        </div>
+
+
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa fa-desktop fa-4x"></i>
+          <h3>Data Analytics Softwares.</h3>
+          <li style="list-style-type:none;"><i class="icon fab fa-gds fa-2px"></i> Google Data Studio </li>
+          <li style="list-style-type:none;"><i class="icon fab fa-python"></i> Tableau</li>
+          <li style="list-style-type:none;"><i class="icon fas fa-chart-network"></i> PowerBI</li>
+          <li style="list-style-type:none;"><i class="icon far fa-file-excel"></i> Plotly</li>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="projects" id="projects">
+        <h1 id="our-headings" class="project__heading font-bb">PROJECTS</h1>
+        <div class="project__container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="project-image">
+                <img src="./images/hacker_news.png" class="img-fluid image-fluid project-image-one" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h4 class="project__heading font-bb">Know the Right Time - for Getting Advice from Hacker News Experts</h4>
+              <p class="project__info">
+                <span class="project__details">Data Analysis Project of Hacker News Site, for knowing at which time maximum number of post and comments are made.<br>
+              </p>
+              <p class="project__conclusion"><strong>Key Findings:</strong>  Posts categorized as "Ask HN" receive more comments on average than "Show HN" posts, emphasizing community engagement.
+              Timing significantly impacts engagement levels, with certain hours attracting higher comment counts. Understanding peak hours enhances post visibility and interaction.</p>
+              
+              <p class="project__conclusion"><strong>Conclusion:</strong> This project provides valuable insights into maximizing engagement on Hacker News through 
+                strategic post categorization and timing. By leveraging data-driven approaches, users can optimize their interactions and foster meaningful
+                 discussions within the Hacker News community.</p>
+              <a target="_blank" href="https://github.com/dollymoulekhi/Hacker-News-Project/blob/main/hacker_news.ipynb" class="btn btn-lg btn-primary download-button primary-color-buttons pad-btn">CODE</a>
+            </div>
+          </div>
+        </div>
+        <hr>
+
+
+
+
+
+      <div class="project__container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="project-image">
+              <img src="./images/pair_plot.png" class="img-fluid image-fluid project-image-one" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="project__heading font-bb">
+              Navigating Success: Choosing the Right College Major
+            </h2>
+            <p class="project__info">
+              This project involves a thorough analysis of data concerning recent graduates in the United States, focusing on their
+              employment outcomes and choice of majors. The examination encompasses the distribution of graduates into full-time,
+              part-time, and contract positions, alongside identifying majors associated with higher earning potential for female
+              graduates. Additionally, the study investigates gender demographics across various academic disciplines to delineate
+              fields dominated by either women or men.<br>
+            </p>
+            <p class="project__key-points">
+              <strong>Key Points:</strong><br>
+              1. <strong>High-Paying Majors:</strong> Engineering and technology majors consistently offer higher earning potential compared to other fields of study.<br>
+              2. <strong>Gender Disparities:</strong> Majors with predominantly female students tend to result in lower median salaries, highlighting potential gender-based wage disparities.<br>            </p>
+            <div class="project__conclusion">
+              <strong>Conclusion:</strong><br>
+              In conclusion, choosing the right college major for success involves careful consideration of various factors. While fields like engineering and technology offer higher earning potential, it's essential to recognize and address gender disparities in certain majors. Making informed decisions based on data analysis can help individuals better position themselves for success in their careers and financial futures.
+            </div>
+            <a target="_blank" href="https://github.com/dollymoulekhi/Choose-the-right-Major/blob/main/Predict_the_right_major.ipynb"
+              class="btn btn-lg btn-primary download-button primary-color-buttons pad-btn">CODE</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+      
+      
+
+
+      <div class="project__container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="project-image">
+                    <img src="./images/emp_exit.png" height="150px" class="img-fluid image-fluid project-image-one" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="project__heading font-bb">
+                    Clean and Analyze Employee Exit Surveys: Unveiling Dissatisfaction Trends
+                </h2>
+                <p class="project__info">
+                    This project delved into employee exit surveys from the DETE and TAFE institutes in Queensland, Australia.
+                    By cleaning and combining datasets, we sought to uncover patterns of resignation and dissatisfaction among employees.
+                </p>
+    
+                <p class="project__key-points">
+                    <strong>Key Findings:</strong><br>
+                    1. <strong>Resignation Reasons and Dissatisfaction Factors:</strong> Through analysis, we identified significant
+                    correlations between reasons for resignation and factors contributing to dissatisfaction among employees.
+                    <br>
+                    2. <strong>Tenure and Resignation:</strong> Categorizing employees by tenure revealed that established and
+                    veteran employees were more likely to resign due to dissatisfaction.<br>
+                </p>
+    
+                <p>
+                    <strong>Conclusion:</strong> The analysis of exit surveys from the DETE and TAFE institutes provided valuable insights
+                    into employee resignation patterns and dissatisfaction factors. By understanding the reasons behind employee departures,
+                    organizations can develop targeted strategies to improve employee satisfaction and retention.
+                    These findings underscore the importance of addressing employee concerns and implementing effective
+                    retention measures to foster a positive work environment.
+                </p>
+    
+                <a target="_blank" href="https://github.com/dollymoulekhi/Cleaning-and-analysing-employees-exit-survey/blob/main/cleaning_and_analysing_data.ipynb"
+                    class="btn btn-lg btn-primary download-button primary-color-buttons pad-btn">CODE</a>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+      <hr>
+      <div class="project__container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="project-image">
+              <img src="./images/pca_vs_tsne.png" height="150px" class="img-fluid image-fluid project-image-one" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="project__heading font-bb">
+              Comparison of Dimensionality Reduction Techniques: PCA VS t-SNE
+            </h2>
+            <div class="project__info">
+              <p>
+                In this project, our objective is to visualize high-dimensional data obtained from Kaggle's Digit Recognizer competition, consisting of images represented as 784-dimensional vectors. To achieve this, we utilize dimensionality reduction techniques such as Principal Component Analysis (PCA) and t-SNE (t-Distributed Stochastic Neighbor Embedding). PCA identifies the directions of maximum variance in the data and projects it onto a lower-dimensional space, while t-SNE focuses on preserving the local structure of the data. Our implementation includes steps such as data preprocessing, manual PCA for 2D visualization, employing Scikit-Learn's PCA, and applying t-SNE for further dimensionality reduction and visualization. Through this project, we aim to gain insights into the underlying structure of the dataset and evaluate the effectiveness of different dimensionality reduction methods in visualizing complex data patterns.        </p>
+              
+              <p>
+                <strong>Conclusion:</strong> PCA provided limited separation of data, while t-SNE exhibited superior performance in preserving local structure and separating data points effectively.
+              </p>
+              <p>
+                The project aims to compare PCA and t-SNE for visualizing high-dimensional data, providing insights into their effectiveness in dimensionality reduction and visualization.
+              </p>
+            </div>
+            <a target="_blank" href="https://github.com/dollymoulekhi/Dimensionality-Reduction-by-using-PCA-and-T-SNE/blob/main/MNIST%20data%20dimensionality%20reduction%20and%20visualization.ipynb"
+              class="btn btn-lg btn-primary download-button primary-color-buttons pad-btn">CODE</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <hr>
+      <div class="project__container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="project-image">
+              <img src="./images/star2.png" height="150px" class=" img-fluid image-fluid project-image-one" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="project__heading font-bb">
+              Finding Exoplanets
+            </h2>
+            <p class="project__info">
+
+              The "Finding Exoplanets" project, aimed to detect exoplanets by analyzing star 
+              brightness data from the Kepler telescope. Using machine learning models like RandomForestClassifier and XGBoost Classifier,
+               I trained a model with 80% accuracy to predict stars with planets. Further analysis was done by using confusion matrices and 
+               classification reports highlighted areas for improvement. Data preprocessing techniques, including normalization and Fast Fourier transform,
+                were applied to enhance the model's performance. The project showcases a comprehensive approach to exoplanet detection, combining data analysis,
+                 machine learning, and signal processing techniques.
+            </p>
+            <a target="_blank" href="https://github.com/dollymoulekhi/Finding-exoplanets/blob/main/Finding_new_home_(by_deploying_ML_algo).ipynb"
+              class="btn btn-lg btn-primary download-button primary-color-buttons pad-btn">CODE</a>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+
+
+
+
+      <div class="project__container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="project-image">
+              <img src="./images/tumor_ds.png" height="150px" class=" img-fluid image-fluid project-image-one" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h2 class="project__heading font-bb">
+              Project Overview: Predicting Tumor Type
+            </h2>
+            <p class="project__info">
+              This project focuses on predicting whether a tumor is benign or malignant using machine learning techniques.
+              It utilizes the Breast Cancer Wisconsin (Original) dataset, consisting of 569 instances with 30 numeric attributes and a target class.
+
+              <p>
+                <strong>Implementation Steps:</strong><br></p>
+              <p>
+              1. Data Preparation: The dataset is loaded and checked for missing values.
+              2. Visualization: Pair plots are created to visually compare features for malignant and benign tumors.
+              3. Model Training: Support Vector Machine (SVM) algorithm is employed for classification.
+              4. Model Evaluation: The SVM model achieves an accuracy of 96.49%.
+              </p>
+
+              <p>
+              <strong>Conclusion:</strong> The SVM model demonstrates strong predictive performance, with a 96.49% accuracy, indicating its effectiveness in distinguishing between benign and malignant tumors.
+              This project showcases the use of machine learning for medical diagnosis, specifically in predicting tumor type based on relevant features extracted from medical imaging data.
+              </p>
+
+
+            </p>
+            <a target="_blank" href="https://github.com/dollymoulekhi/predicting-tumor-is-benign-or-malignant/blob/main/Predicting-%20tumor%20is%20benign%20or%20malignant.ipynb"
+              class="btn btn-lg btn-primary download-button primary-color-buttons pad-btn">CODE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+    <main class="example">
+      <section id="map" style="margin: 0; padding: 0;">
+          <div class="container-fluid" style="margin: 0; padding: 0;">
+              <div class="row" style="margin: 0; padding: 0;">
+                  <div class="col-lg-12 text-center" style="margin: 0; padding: 0;">
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12497463.12777766!2d-99.3654529517478!3d49.07692494885936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91a0354b7b7cf%3A0x65461a3abfe4a0ac!2sMontreal%2C%20QC%2C%20Canada!5e0!3m2!1sen!2sus!4v1647331447974!5m2!1sen!2sus" width="120%" height="450" style="border:2;" allowfullscreen="" loading="lazy"></iframe>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+    <footer id="contact">
+      <h1>Social Links</h1>
+      <a href="https://www.linkedin.com/in/dmoulekhi/" class="footer-icon"><img src="images/linkedin.png" alt="linkedin" class="logo-img"></a>
+      <a href=" https://github.com/dollymoulekhi" class="footer-icon"><img src="images/github.png" alt="github" class="logo-img"></a>
+    </footer>
+
+
+
+  </main>
+</body>
+</html>
